@@ -24,6 +24,8 @@ class WordSetFactory {
 				//Codigo De: (c) 1998, 2001 duane a. bailey
 				//Proporcionado en Clase; siempre haciendo referencia que
 				//el Codigo no Ha sido Creado Por Mi Persona.
+			case 4:
+				return new MyHashTree(); //hashtree con JCF
 			default:
 				return null;
 		}
