@@ -49,7 +49,7 @@ class WordTypeCounter {
 				//      emplear generateSet(2) para utilizar la clase que usted
 				//      propone como una mejor alternativa
 				// =====================================================
-				WordSet words =  WordSetFactory.generateSet(3);//;1,2,3,4
+				WordSet words =  WordSetFactory.generateSet(2);//;1,2,3,4
 				// =====================================================
 				
 				String line = null;

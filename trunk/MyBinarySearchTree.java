@@ -10,18 +10,16 @@ import java.util.LinkedList;
 
 class MyBinarySearchTree implements WordSet
 {
-	private BinaryTree base;
+	private BinarySearchTree base;
 	
-	public MyListTree()
+	public MyBinarySearchTree()
 	{
-		base = new BinaryTree<Word>();
+		base = new BinarySearchTree<Word>();
 	}
 	
 	public Word get(Word word)
 	{
-		int index = base.indexOf(word);
-		if(index == -1) return null;
-		return base.get(index);
+		return (Word)base.get(word);
 	}
 	
 	public void add(Word wordObject)
